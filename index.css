@@ -1,0 +1,362 @@
+div.image {
+  content: url(assets/rocket.png);
+}
+​ #myProgress {
+  background-color: grey;
+}
+
+.falcon91 {
+  padding: 0 0 0 300px;
+  width: 100px;
+  height: 100px;
+  animation: example  forwards;
+  animation-duration: 0;
+
+  content: url(assets/rocket_top.png);
+  position: relative;
+}
+.falcon92 {
+  content: url(assets/rocket_bottom.png);
+  padding: 0 0 0 300px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: example2  forwards;
+  animation-duration: 0;
+}
+.falcon93 {
+  content: url(assets/thrust.png);
+  padding: 0 0 0 300px;
+  width: 100px;
+  height: 100px;
+  animation: example1  forwards;
+  animation-duration: 0;
+  position: relative;
+}
+
+.falconheavy1 {
+  padding: 0 0 0 500px;
+  width: 100px;
+  height: 100px;
+
+  animation: example  forwards;
+  animation-duration: 0;
+
+  content: url(assets/rocket_top.png);
+  position: relative;
+}
+.falconheavy2 {
+  content: url(assets/rocket_bottom.png);
+  padding: 0 0 0 500px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: example2  forwards;
+  animation-duration: 0;
+}
+.falconheavy3 {
+  content: url(assets/thrust.png);
+  padding: 0 0 0 500px;
+  width: 100px;
+  height: 100px;
+  animation: example1  forwards;
+  animation-duration: 0;
+
+  /* animation-duration: 0; */
+  position: relative;
+}
+
+.bfr1 {
+  padding: 0 0 0 700px;
+  width: 100px;
+  height: 100px;
+  animation: example  forwards;
+  animation-duration: 0;
+
+  position: relative;
+  content: url(assets/rocket_top.png);
+}
+.bfr2 {
+  content: url(assets/rocket_bottom.png);
+  padding: 0 0 0 700px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: example2  forwards;
+  animation-duration: 0;
+
+  
+  
+  /* animation-duration: 0; */
+}
+.bfr3 {
+  content: url(assets/thrust.png);
+  padding: 0 0 0 700px;
+  width: 100px;
+  height: 100px;
+  animation: example1  forwards;
+  animation-duration: 0;
+  position: relative;
+}
+
+#myBar  {
+  width: 10%;
+  height: 20px;
+  background-color: #4caf50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 120px; /* To center it vertically */
+  color: white;
+}
+
+#myBar1  {
+  width: 10%;
+  height: 20px;
+  background-color: #4caf50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 120px; /* To center it vertically */
+  color: white;
+  margin: 0 0 0 320px;
+
+}
+#myBar2  {
+  width: 10%;
+  height: 20px;
+  background-color: #4caf50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 120px; /* To center it vertically */
+  color: white;
+  margin: 0 0 0 620px;
+
+}
+
+#myBar3  {
+  width: 10%;
+  height: 20px;
+  background-color: #4caf50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 120px; /* To center it vertically */
+  color: white;
+  margin: 0 0 0 920px;
+
+}
+.bfr {
+  display: inline-block;
+  width: 110px;
+}
+.image1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: example forwards;
+  animation-duration: 0;
+  content: url(assets/rocket_top.png);
+}
+.image3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: example1 forwards;
+  animation-duration: 0;
+  content: url(assets/thrust.png);
+}
+.image2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: example2 forwards;
+  animation-duration: 0;
+  content: url(assets/rocket_bottom.png);
+}
+
+.image22 {
+  animation: example22 forwards;
+  animation-duration: 0;
+}
+
+@keyframes example22 {
+  from {
+    top: 70vh;
+  }
+  to {
+    top: 0px;
+  }
+}
+@keyframes falcon9 {
+  0% {
+  }
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+  }
+  from {
+    top: 70vh;
+    opacity: 2;
+  }
+  to {
+    top: 0px;
+    opacity: 0;
+  }
+}
+@keyframes falcon91 {
+  0% {
+  }
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+  }
+  from {
+    top: 70vh;
+    opacity: 2;
+  }
+  to {
+    top: 0px;
+    opacity: 0;
+  }
+}
+@keyframes example {
+  0% {
+  }
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+  }
+  from {
+    top: 70vh;
+    opacity: 2;
+  }
+  to {
+    top: 0px;
+    opacity: 0;
+  }
+}
+@keyframes example1 {
+  0% {
+    
+  }
+  25% {
+    opacity: 1;
+  }
+  48% {
+    margin-top: 0px;
+    opacity: 0;
+  }
+  49% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+  50% {
+    margin-top: -100px;
+  }
+  51% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  54% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 1;
+  }
+  58% {
+    opacity: 0;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  61% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 1;
+  }
+  64% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 0;
+  }
+  68% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  
+  75% {
+  }
+  100% {
+  }
+  from {
+    top: 70vh;
+    opacity: 2;
+  }
+  to {
+    top: 0px;
+    opacity: 0;
+  }
+}
+@keyframes example2 {
+  0% {
+  }
+  25% {
+  }
+  40% {
+  }
+  50% {
+    opacity: 0;
+  }
+
+  85% {
+  }
+  95% {
+  }
+  100% {
+  }
+  from {
+    top: 70vh;
+    opacity: 2;
+  }
+  to {
+    top: 0px;
+    opacity: 0;
+  }
+}
+
+/* div.image {
+content:url(assets/rocket.png)
+}    */
